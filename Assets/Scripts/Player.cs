@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -32,12 +33,24 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
+        if (SceneManager.GetActiveScene().name == "LevelOne")
+        {
+            anim.SetBool("Dance", false);
+        }
+        else if (SceneManager.GetActiveScene().name == "MainScreen")
+        {
+            anim.SetBool("Dance", true);
+        }
+
         pizza.SetActive(false);
 
-        playerMap = new PlayerControlMap();
-        playerMap.Basic.Enable();
-        playerMap.Basic.Jump.performed += Jump;
-        playerMap.Basic.Give.performed += GivePizza;
+        if (!(SceneManager.GetActiveScene().name == "MainScreen"))
+        {
+            playerMap = new PlayerControlMap();
+            playerMap.Basic.Enable();
+            playerMap.Basic.Jump.performed += Jump;
+            playerMap.Basic.Give.performed += GivePizza;
+        }
 
         tempRotationSpeed = rotationSpeed;
         jumpTimer = maxJumpTime;
