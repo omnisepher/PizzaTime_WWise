@@ -47,6 +47,7 @@ public class MainMenu : MonoBehaviour
     {
         menuTab.active = !menuTab.active;
         mainCanvas.active = !mainCanvas.active;
+        Time.timeScale = menuTab.active ? 0f : 1f;
     }
 
     public void Restart()

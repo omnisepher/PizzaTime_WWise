@@ -119,7 +119,7 @@ public class GameManager : MonoBehaviour
     {
         if (fedPeople == numTotalPeople)
         {
-            mainPlayer.GetComponent<Animator>().SetTrigger("Cheer");
+            mainPlayer.GetComponent<Animator>().SetBool("Cheer", true);
             levelClear = true;
             endLevelText.sprite = levelClearText;
         }
@@ -135,8 +135,10 @@ public class GameManager : MonoBehaviour
         {
             if (timer > 0f)
             {
+
                 timer = timer < 0f ? 0f : timer - Time.deltaTime;
                 clockBar.fillAmount = timer / maxTime;
+
             }
             else
             {
