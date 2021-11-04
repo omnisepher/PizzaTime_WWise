@@ -74,12 +74,14 @@ public class Player : MonoBehaviour
 
     private void GivePizza(InputAction.CallbackContext context)
     {
-        if (!givingPizza && possiblePeople)
+        if (!givingPizza && possiblePeople && !GameManager.levelLose && !GameManager.levelClear)
         {
             rotationSpeed = 0;
             pizza.SetActive(true);
             anim.SetTrigger("Give");
             givingPizza = true;
+
+            GameManager.AddTime();
         }
     }
 
@@ -113,7 +115,7 @@ public class Player : MonoBehaviour
 
     public void Jump(InputAction.CallbackContext context)
     {
-        if (canJump)
+        if (canJump && !GameManager.levelLose && !GameManager.levelClear)
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             anim.SetTrigger("Jump");

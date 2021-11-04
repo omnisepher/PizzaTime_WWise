@@ -6,6 +6,13 @@ public class UIManager : MonoBehaviour
 {
     [SerializeField]
     private TMPro.TextMeshProUGUI progressTest;
+    [SerializeField]
+    static private Animator addTimeAnim;
+
+    private void Awake()
+    {
+        addTimeAnim = GameObject.Find("AddTime").GetComponent<Animator>();
+    }
 
     private void Update()
     {
@@ -15,6 +22,11 @@ public class UIManager : MonoBehaviour
     private void ProgressTextUpdate()
     {
         progressTest.text = GameManager.fedPeople + "/" + GameManager.numTotalPeople;
+    }
+
+    static public void AddTime()
+    {
+        addTimeAnim.SetTrigger("AddTime");
     }
 
 }

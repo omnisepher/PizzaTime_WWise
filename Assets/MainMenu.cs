@@ -8,11 +8,30 @@ public class MainMenu : MonoBehaviour
     public GameObject infoTab;
     public GameObject menuTab;
     public GameObject mainCanvas;
+    public GameObject endLevelCanvas;
 
+    private void Awake()
+    {
+        print("reloaded");
+        menuTab.SetActive(false);
+        mainCanvas.SetActive(true);
+        endLevelCanvas.SetActive(false);
+    }
+
+    private void Update()
+    {
+        if (GameManager.levelClear || GameManager.levelLose)
+        {
+            menuTab.SetActive(false);
+            mainCanvas.SetActive(false);
+            endLevelCanvas.SetActive(true);
+        }
+    }
     public void Play()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
 
     public void Info()
     {
@@ -28,6 +47,11 @@ public class MainMenu : MonoBehaviour
     {
         menuTab.active = !menuTab.active;
         mainCanvas.active = !mainCanvas.active;
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
 }
