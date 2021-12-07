@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>E:\0_YT_Projects\New Tries\PizzaTime_WWise_T\PizzaTime_WWise_T_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>E:\0_YT_Projects\New Tries\PizzaTime_WWise_T\PizzaTime_WWise_T_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>E:\0_YT_Projects\New Tries\PizzaTime_WWise_T\PizzaTime_WWise_T_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>E:\0_YT_Projects\PizzaTime_WWise\PizzaTime_WWise_T_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>E:\0_YT_Projects\PizzaTime_WWise\PizzaTime_WWise_T_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\0_YT_Projects\PizzaTime_WWise\PizzaTime_WWise_T_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\0_YT_Projects\New Tries\PizzaTime_WWise_T\PizzaTime_WWise_T_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\0_YT_Projects\PizzaTime_WWise\PizzaTime_WWise_T_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,10 +16,84 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1077138683">
+		<SoundBank Id="3161908922" Language="SFX" Hash="192598550">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3780370407" Name="MusicBG" ObjectPath="\Events\Default Work Unit\MusicBG" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="32276550" Language="SFX">
+							<ShortName>BassDrum_120B_3B_1T-01.wav</ShortName>
+							<Path>SFX\BassDrum_120B_3B_1T-01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="220423063" Language="SFX">
+							<ShortName>BassGuitar_120B_3B_1T-01.wav</ShortName>
+							<Path>SFX\BassGuitar_120B_3B_1T-01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="519785033" Language="SFX">
+							<ShortName>BassGuitar_120B_3B_1T.wav</ShortName>
+							<Path>SFX\BassGuitar_120B_3B_1T_D79FB2B7.wem</Path>
+						</File>
+						<File Id="620162151" Language="SFX">
+							<ShortName>AliSynth_120B_3B_1T-01.wav</ShortName>
+							<Path>SFX\AliSynth_120B_3B_1T-01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="636565594" Language="SFX">
+							<ShortName>Synth_120B_3B_1T.wav</ShortName>
+							<Path>SFX\Synth_120B_3B_1T_D79FB2B7.wem</Path>
+						</File>
+						<File Id="769808883" Language="SFX">
+							<ShortName>AliSynth_120B_3B_1T.wav</ShortName>
+							<Path>SFX\AliSynth_120B_3B_1T_D79FB2B7.wem</Path>
+						</File>
+						<File Id="823638190" Language="SFX">
+							<ShortName>BassDrum_120B_3B_1T.wav</ShortName>
+							<Path>SFX\BassDrum_120B_3B_1T_D79FB2B7.wem</Path>
+						</File>
+						<File Id="851420730" Language="SFX">
+							<ShortName>Synth_120B_3B_1T-01.wav</ShortName>
+							<Path>SFX\Synth_120B_3B_1T-01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="887324606" Language="SFX">
+							<ShortName>DiscSpin_120B_1B.wav</ShortName>
+							<Path>SFX\DiscSpin_120B_1B_D79FB2B7.wem</Path>
+						</File>
+						<File Id="947331730" Language="SFX">
+							<ShortName>BassGuitar_120B_3B_1T-03.wav</ShortName>
+							<Path>SFX\BassGuitar_120B_3B_1T-03_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4082046343" Name="MusicMenu" ObjectPath="\Events\Default Work Unit\MusicMenu" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="500699213" Language="SFX">
+							<ShortName>MenuBass_120B_3B_1T.wav</ShortName>
+							<Path>SFX\MenuBass_120B_3B_1T_D79FB2B7.wem</Path>
+						</File>
+						<File Id="629342787" Language="SFX">
+							<ShortName>MenuRobot_120B_2B_1T.wav</ShortName>
+							<Path>SFX\MenuRobot_120B_2B_1T_D79FB2B7.wem</Path>
+						</File>
+						<File Id="632243246" Language="SFX">
+							<ShortName>MenuMelody_120B_4B.wav</ShortName>
+							<Path>SFX\MenuMelody_120B_4B_D79FB2B7.wem</Path>
+						</File>
+						<File Id="674640498" Language="SFX">
+							<ShortName>MenuFill_120B_1B_1T.wav</ShortName>
+							<Path>SFX\MenuFill_120B_1B_1T_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1034509803" Language="SFX">
+							<ShortName>MenuSubBass_120B_4B_1T.wav</ShortName>
+							<Path>SFX\MenuSubBass_120B_4B_1T_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1041675218" Language="SFX">
+							<ShortName>MenuFill_120B_1B_1T-01.wav</ShortName>
+							<Path>SFX\MenuFill_120B_1B_1T-01_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

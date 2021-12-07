@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3780370407	MusicBG			\Default Work Unit\MusicBG	
+	4082046343	MusicMenu			\Default Work Unit\MusicMenu	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	32276550	Bass Drum	E:\0_YT_Projects\PizzaTime_WWise\PizzaTime_WWise_T_WwiseProject\.cache\Mac\SFX\BassDrum_120B_3B_1T-01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\BG\BG v0\Bass Drum		1536064
+	220423063	Bass Guitar	E:\0_YT_Projects\PizzaTime_WWise\PizzaTime_WWise_T_WwiseProject\.cache\Mac\SFX\BassGuitar_120B_3B_1T-01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\BG\BG v0\Bass Guitar		1536064
+	500699213	Bass	E:\0_YT_Projects\PizzaTime_WWise\PizzaTime_WWise_T_WwiseProject\.cache\Mac\SFX\MenuBass_120B_3B_1T_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Menu\MenuMusic\Bass		1920064
+	519785033	Bass Guitar	E:\0_YT_Projects\PizzaTime_WWise\PizzaTime_WWise_T_WwiseProject\.cache\Mac\SFX\BassGuitar_120B_3B_1T_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\BG\BG v0\Bass Guitar		1536064
+	620162151	AlienSynth	E:\0_YT_Projects\PizzaTime_WWise\PizzaTime_WWise_T_WwiseProject\.cache\Mac\SFX\AliSynth_120B_3B_1T-01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\BG\BG v0\AlienSynth		1536064
+	629342787	Robot	E:\0_YT_Projects\PizzaTime_WWise\PizzaTime_WWise_T_WwiseProject\.cache\Mac\SFX\MenuRobot_120B_2B_1T_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Menu\MenuMusic\Robot		1152064
+	632243246	Melody	E:\0_YT_Projects\PizzaTime_WWise\PizzaTime_WWise_T_WwiseProject\.cache\Mac\SFX\MenuMelody_120B_4B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Menu\MenuMusic\Melody		1920064
+	636565594	Synth	E:\0_YT_Projects\PizzaTime_WWise\PizzaTime_WWise_T_WwiseProject\.cache\Mac\SFX\Synth_120B_3B_1T_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\BG\BG v0\Synth		1536064
+	674640498	Fill	E:\0_YT_Projects\PizzaTime_WWise\PizzaTime_WWise_T_WwiseProject\.cache\Mac\SFX\MenuFill_120B_1B_1T_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Menu\MenuMusic\Fill		768064
+	769808883	AlienSynth	E:\0_YT_Projects\PizzaTime_WWise\PizzaTime_WWise_T_WwiseProject\.cache\Mac\SFX\AliSynth_120B_3B_1T_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\BG\BG v0\AlienSynth		1536064
+	823638190	Bass Drum	E:\0_YT_Projects\PizzaTime_WWise\PizzaTime_WWise_T_WwiseProject\.cache\Mac\SFX\BassDrum_120B_3B_1T_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\BG\BG v0\Bass Drum		1536064
+	851420730	Synth	E:\0_YT_Projects\PizzaTime_WWise\PizzaTime_WWise_T_WwiseProject\.cache\Mac\SFX\Synth_120B_3B_1T-01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\BG\BG v0\Synth		1536064
+	887324606	Disc	E:\0_YT_Projects\PizzaTime_WWise\PizzaTime_WWise_T_WwiseProject\.cache\Mac\SFX\DiscSpin_120B_1B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\BG\BG v0\Disc		384064
+	947331730	Bass Guitar	E:\0_YT_Projects\PizzaTime_WWise\PizzaTime_WWise_T_WwiseProject\.cache\Mac\SFX\BassGuitar_120B_3B_1T-03_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\BG\BG v0\Bass Guitar		1536064
+	1034509803	SubBass	E:\0_YT_Projects\PizzaTime_WWise\PizzaTime_WWise_T_WwiseProject\.cache\Mac\SFX\MenuSubBass_120B_4B_1T_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Menu\MenuMusic\SubBass		1920064
+	1041675218	Fill	E:\0_YT_Projects\PizzaTime_WWise\PizzaTime_WWise_T_WwiseProject\.cache\Mac\SFX\MenuFill_120B_1B_1T-01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Menu\MenuMusic\Fill		768064
+

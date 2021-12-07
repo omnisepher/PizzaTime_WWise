@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: c92231497fc1424f8b8e3ef9a11432f6
     GuidInternal: 
-    m_lastTime: -8585653274423864985
+    m_lastTime: -8585630664147973434
     List:
     - name: Main
       guid: c7ab22b6c6b64b40bef17a59d55cefbd
@@ -94,8 +94,42 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 031e8d551512cf44b56fda44b1022729
     GuidInternal: 
-    m_lastTime: -8585653277297578506
-    List: []
+    m_lastTime: -8585628076229811968
+    List:
+    - name: MusicBG
+      guid: b562bec6ec179d42ad0385f3ff028039
+      id: 3780370407
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 031e8d551512cf44b56fda44b1022729
+      - ElementName: MusicBG
+        ObjectType: 3
+        guid: b562bec6ec179d42ad0385f3ff028039
+      Path: Events\Default Work Unit\MusicBG
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MusicMenu
+      guid: bbdde975fac7c644a3727848f44fc1f4
+      id: 4082046343
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 031e8d551512cf44b56fda44b1022729
+      - ElementName: MusicMenu
+        ObjectType: 3
+        guid: bbdde975fac7c644a3727848f44fc1f4
+      Path: Events\Default Work Unit\MusicMenu
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -152,9 +186,9 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585653277297908796
     List: []
-  ExpandedFileSystemItemIds: 0500000008000000090000000a0000000b0000000d0000000f000000
-  ExpandedWaapiItemIds: 0500000008000000090000000a0000000b0000000d0000000f000000
-  AutoSyncSelection: 0
+  ExpandedFileSystemItemIds: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000f0000001100000013000000
+  ExpandedWaapiItemIds: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000f0000001100000013000000
+  AutoSyncSelection: 1
   autoPopulateEnabled: 1
   currentDataSource: 1
   CurrentPluginConfig: 
