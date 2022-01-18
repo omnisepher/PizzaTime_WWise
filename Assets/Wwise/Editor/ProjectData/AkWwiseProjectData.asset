@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: c92231497fc1424f8b8e3ef9a11432f6
     GuidInternal: 
-    m_lastTime: -8585630664147973434
+    m_lastTime: -8585594036442601852
     List:
     - name: Main
       guid: c7ab22b6c6b64b40bef17a59d55cefbd
@@ -94,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 031e8d551512cf44b56fda44b1022729
     GuidInternal: 
-    m_lastTime: -8585628076229811968
+    m_lastTime: -8585594036442576834
     List:
+    - name: Footsteps
+      guid: 98de178a8cc3dd4a8e8e7f71e61b4636
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 031e8d551512cf44b56fda44b1022729
+      - ElementName: Footsteps
+        ObjectType: 3
+        guid: 98de178a8cc3dd4a8e8e7f71e61b4636
+      Path: Events\Default Work Unit\Footsteps
+      maxAttenuation: 0
+      maxDuration: 1.141212
+      minDuration: 0.144611
     - name: MusicBG
       guid: b562bec6ec179d42ad0385f3ff028039
       id: 3780370407
@@ -170,8 +187,58 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 22997713ef310547bd7ba0b7b3be4589
     GuidInternal: 
-    m_lastTime: -8585653277297563488
-    List: []
+    m_lastTime: -8585594036443096076
+    List:
+    - name: Footsteps
+      guid: 29f1fc3e64ee6d42b429702ee505ad06
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 22997713ef310547bd7ba0b7b3be4589
+      - ElementName: Footsteps
+        ObjectType: 11
+        guid: 29f1fc3e64ee6d42b429702ee505ad06
+      Path: Switches\Default Work Unit\Footsteps
+      values:
+      - name: Grass
+        guid: c4d12ce2cd125443a777eaf55aa352c7
+        id: 4248645337
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 22997713ef310547bd7ba0b7b3be4589
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: 29f1fc3e64ee6d42b429702ee505ad06
+        - ElementName: Grass
+          ObjectType: 10
+          guid: c4d12ce2cd125443a777eaf55aa352c7
+      - name: Gravel
+        guid: 5c61b7ff62d5784985b189bda60e01ac
+        id: 2185786256
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 22997713ef310547bd7ba0b7b3be4589
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: 29f1fc3e64ee6d42b429702ee505ad06
+        - ElementName: Gravel
+          ObjectType: 10
+          guid: 5c61b7ff62d5784985b189bda60e01ac
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:

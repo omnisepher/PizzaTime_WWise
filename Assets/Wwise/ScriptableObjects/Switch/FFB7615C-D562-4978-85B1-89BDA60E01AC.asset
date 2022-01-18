@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7edb0e40c2b884341ae7539c12fa36cb, type: 3}
+  m_Name: FFB7615C-D562-4978-85B1-89BDA60E01AC
+  m_EditorClassIdentifier: 
+  objectName: Gravel
+  id: 2185786256
+  guid: FFB7615C-D562-4978-85B1-89BDA60E01AC
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: d58da5af8085f3e46b9d9a97d0ad58f5, type: 2}

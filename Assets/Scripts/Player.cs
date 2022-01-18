@@ -15,6 +15,8 @@ public class Player : MonoBehaviour
     private float rotationSpeed = 0.0f;
     [SerializeField]
     private GameObject pizza;
+    [SerializeField]
+    private PlayerSounds playerSounds;
 
     private float BaseSpeedMultiplier = 1;
 
@@ -152,6 +154,11 @@ public class Player : MonoBehaviour
             possiblePeople = false;
         }
 
+    }
+
+    private void PlayFootstep()
+    {
+        playerSounds.PlayFootstepSound();
     }
 
 }

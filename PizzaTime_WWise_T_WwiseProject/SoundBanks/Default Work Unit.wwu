@@ -7,6 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="MusicBG" ID="{C6BE62B5-17EC-429D-AD03-85F3FF028039}" WorkUnitID="{558D1E03-1215-44CF-B56F-DA44B1022729}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MusicMenu" ID="{75E9DDBB-C7FA-44C6-A372-7848F44FC1F4}" WorkUnitID="{558D1E03-1215-44CF-B56F-DA44B1022729}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Footsteps" ID="{8A17DE98-C38C-4ADD-8E8E-7F71E61B4636}" WorkUnitID="{558D1E03-1215-44CF-B56F-DA44B1022729}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
