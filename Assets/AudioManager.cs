@@ -8,6 +8,7 @@ public class AudioManager : MonoBehaviour
     public static AudioManager AudioManagerInstance;
 
     [SerializeField] private AK.Wwise.Event themeSong;
+    [SerializeField] private AK.Wwise.Event clockTick;
 
     private uint themeSongID;
     private bool isPlaying = false;
@@ -24,6 +25,10 @@ public class AudioManager : MonoBehaviour
             // themeSongID = AkSoundEngine.PostEvent("MusicMenu", gameObject);
             isPlaying = true;
         }
+        if (clockTick.IsValid())
+        {
+            clockTick.Post(gameObject);
+        }
     }
 
     private void Update()
@@ -35,16 +40,24 @@ public class AudioManager : MonoBehaviour
             // Debug.Log("Stopped");
             if (isPlaying)
             {
-                themeSong.ExecuteAction(gameObject,AkActionOnEventType.AkActionOnEventType_Pause,500,AkCurveInterpolation.AkCurveInterpolation_Log1);
+                themeSong.ExecuteAction(gameObject, AkActionOnEventType.AkActionOnEventType_Pause, 500, AkCurveInterpolation.AkCurveInterpolation_Log1);
                 Debug.Log("Paused");
             }
             else
             {
-                themeSong.ExecuteAction(gameObject,AkActionOnEventType.AkActionOnEventType_Resume,500,AkCurveInterpolation.AkCurveInterpolation_Log1);
+                themeSong.ExecuteAction(gameObject, AkActionOnEventType.AkActionOnEventType_Resume, 500, AkCurveInterpolation.AkCurveInterpolation_Log1);
                 Debug.Log("Resumed");
             }
 
             isPlaying = !isPlaying;
+        }
+        if (GameManager.timer < 5.0f && GameManager.timer > 0.0f)
+        {
+            AkSoundEngine.SetState("Time", "Danger");
+        }
+        else
+        {
+            AkSoundEngine.SetState("Time", "Safe");
         }
     }
 }

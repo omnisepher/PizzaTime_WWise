@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: c92231497fc1424f8b8e3ef9a11432f6
     GuidInternal: 
-    m_lastTime: -8585594036442601852
+    m_lastTime: -8585563790978558230
     List:
     - name: Main
       guid: c7ab22b6c6b64b40bef17a59d55cefbd
@@ -94,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 031e8d551512cf44b56fda44b1022729
     GuidInternal: 
-    m_lastTime: -8585594036442576834
+    m_lastTime: -8585563790978538213
     List:
+    - name: Clock
+      guid: 1bc4b75e4439a347bab4afee11600cec
+      id: 1182830809
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 031e8d551512cf44b56fda44b1022729
+      - ElementName: Clock
+        ObjectType: 3
+        guid: 1bc4b75e4439a347bab4afee11600cec
+      Path: Events\Default Work Unit\Clock
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Footsteps
       guid: 98de178a8cc3dd4a8e8e7f71e61b4636
       id: 2385628198
@@ -173,8 +190,74 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 1abf31ca64856945822827da90df3bd7
     GuidInternal: 
-    m_lastTime: -8585653277297923802
-    List: []
+    m_lastTime: -8585563790978523200
+    List:
+    - name: Time
+      guid: 0d83cbfa246dae419057be030321e6c2
+      id: 2654366170
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1abf31ca64856945822827da90df3bd7
+      - ElementName: Time
+        ObjectType: 9
+        guid: 0d83cbfa246dae419057be030321e6c2
+      Path: States\Default Work Unit\Time
+      values:
+      - name: Danger
+        guid: c572236942d5c4488a5e74404699d0e0
+        id: 4174463524
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1abf31ca64856945822827da90df3bd7
+        - ElementName: Time
+          ObjectType: 9
+          guid: 0d83cbfa246dae419057be030321e6c2
+        - ElementName: Danger
+          ObjectType: 8
+          guid: c572236942d5c4488a5e74404699d0e0
+      - name: None
+        guid: b54b040d5ef66d42bc09859bfb1a311a
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1abf31ca64856945822827da90df3bd7
+        - ElementName: Time
+          ObjectType: 9
+          guid: 0d83cbfa246dae419057be030321e6c2
+        - ElementName: None
+          ObjectType: 8
+          guid: b54b040d5ef66d42bc09859bfb1a311a
+      - name: Safe
+        guid: d1d8f7b3f3706d4781e50b2868b1b305
+        id: 938058686
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1abf31ca64856945822827da90df3bd7
+        - ElementName: Time
+          ObjectType: 9
+          guid: 0d83cbfa246dae419057be030321e6c2
+        - ElementName: Safe
+          ObjectType: 8
+          guid: d1d8f7b3f3706d4781e50b2868b1b305
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -253,7 +336,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585653277297908796
     List: []
-  ExpandedFileSystemItemIds: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000f0000001100000013000000
+  ExpandedFileSystemItemIds: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001100000013000000
   ExpandedWaapiItemIds: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000f0000001100000013000000
   AutoSyncSelection: 1
   autoPopulateEnabled: 1

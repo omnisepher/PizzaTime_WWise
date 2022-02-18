@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1182830809	Clock			\Default Work Unit\Clock	
 	2385628198	Footsteps			\Default Work Unit\Footsteps	
 	3780370407	MusicBG			\Default Work Unit\MusicBG	
 	4082046343	MusicMenu			\Default Work Unit\MusicMenu	
@@ -10,6 +11,17 @@ Switch	ID	Name	Switch Group			Notes
 	2185786256	Gravel	Footsteps			
 	4248645337	Grass	Footsteps			
 
+State Group	ID	Name			Wwise Object Path	Notes
+	2654366170	Time			\Default Work Unit\Time	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Time			
+	938058686	Safe	Time			
+	4174463524	Danger	Time			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	80386565	Safe	Time	\Actor-Mixer Hierarchy\Default Work Unit\Clock		
+
 Effect plug-ins	ID	Name	Type				Notes
 	19023248	Wwise Time Stretch (Custom)	Wwise Time Stretch			
 
@@ -20,6 +32,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	220423063	Bass Guitar	E:\0_YT_Projects\PizzaTime_WWise\PizzaTime_WWise_T_WwiseProject\.cache\Windows\SFX\BassGuitar_120B_3B_1T-01_0762CC47.wem		\Interactive Music Hierarchy\Default Work Unit\BG\BG v0\Bass Guitar		51402
 	281325517	FootstepsGrass_0-05	E:\0_YT_Projects\PizzaTime_WWise\PizzaTime_WWise_T_WwiseProject\.cache\Windows\SFX\FootstepsGrass_0-05_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FootstepsGrass\FootstepsGrass_0-05		11522
 	317648412	FootstepsRock_0-02	E:\0_YT_Projects\PizzaTime_WWise\PizzaTime_WWise_T_WwiseProject\.cache\Windows\SFX\FootstepsRock_0-02_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FootstepsGravel\FootstepsRock_0-02		4236
+	320533050	ClockTick	E:\0_YT_Projects\PizzaTime_WWise\PizzaTime_WWise_T_WwiseProject\.cache\Windows\SFX\ClockTick_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\Clock\ClockTick		22421
 	377156341	FootstepsRock_0-03	E:\0_YT_Projects\PizzaTime_WWise\PizzaTime_WWise_T_WwiseProject\.cache\Windows\SFX\FootstepsRock_0-03_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FootstepsGravel\FootstepsRock_0-03		2849
 	392651771	FootstepsGrass_0-03	E:\0_YT_Projects\PizzaTime_WWise\PizzaTime_WWise_T_WwiseProject\.cache\Windows\SFX\FootstepsGrass_0-03_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FootstepsGrass\FootstepsGrass_0-03		9374
 	500699213	Bass	E:\0_YT_Projects\PizzaTime_WWise\PizzaTime_WWise_T_WwiseProject\.cache\Windows\SFX\MenuBass_120B_3B_1T_0762CC47.wem		\Interactive Music Hierarchy\Default Work Unit\Menu\MenuMusic\Bass		97927

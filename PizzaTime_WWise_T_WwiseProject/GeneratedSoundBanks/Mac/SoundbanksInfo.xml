@@ -11,16 +11,24 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2378503839">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3510699947">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="775160352">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3262142340">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1182830809" Name="Clock" ObjectPath="\Events\Default Work Unit\Clock" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="320533050" Language="SFX">
+							<ShortName>ClockTick.wav</ShortName>
+							<Path>SFX\ClockTick_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps" DurationType="OneShot" DurationMin="0.144611" DurationMax="1.141212">
 					<IncludedMemoryFiles>
 						<File Id="61748320" Language="SFX">

@@ -36,6 +36,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Clock" ID="{5EB7C41B-3944-47A3-BAB4-AFEE11600CEC}">
+					<ChildrenList>
+						<Action Name="" ID="{AC80ECF7-5D40-4A57-9BEB-D6D1B9219E22}" ShortID="913208850">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Clock" ID="{A36A4569-A5E5-4C6E-BD8F-C51CE51F24C8}" WorkUnitID="{ECA1B71D-66D4-43D1-947C-1873EC9C412D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
